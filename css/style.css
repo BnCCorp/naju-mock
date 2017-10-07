@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Amaranth");
+@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url(../images/background-body.jpg) no-repeat center top fixed;
+}
+
+header {
+    width: 1075px;
+    height: 300px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    background: url(../images/head.png) no-repeat 0 -50px;
+    z-index: 10;
+    position: relative;
+    background-size: cover; }
+
+.wrapper {
+    position: relative;
+    clear: both;
+    margin: -100px auto 0 auto;
+    z-index: 5;
+    width: 969px;
+    background: white url(../images/sidebar-bg-wp-y.png) repeat-y 760px 0; }
+.wrapper:before, .wrapper:after {
+    clear: both;
+    content: "";
+    display: table; }
+
+.content {
+    position: relative;
+    float: left;
+    width: 550px;
+    padding: 130px 15px 70px 27px;
+    box-sizing: border-box; }
+
+.sidebar {
+    position: relative;
+    float: right;
+    width: 205px;
+    padding: 130px 10px 100px 10px;
+    box-sizing: border-box; }
+
+.logo {
+    display: block;
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-left: 60px;
+    background-repeat: no-repeat;
+    background-image: url(../images/naju-logo.png);
+    background-size: contain; }
+.logo span {
+    display: none; }
+
+.top-nav {
+    float: left;
+    list-style-type: none;
+    margin: 120px 0 0 60px;
+    padding: 0; }
+.top-nav li {
+    display: inline;
+    padding: 0;
+    margin: 0; }
+.top-nav a:link,
+.top-nav a:visited {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 5px 13px;
+    font-family: Source Sans Pro;
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in; }
+.top-nav a:hover,
+.top-nav a:focus,
+.top-nav a:active {
+    background-color: rgba(255, 255, 255, 0.2); }
+
+.main-nav {
+    position: relative;
+    float: left;
+    width: 205px;
+    padding: 130px 13px;
+    box-sizing: border-box;
+    background: #F0F7E0 url(../images/main-nav-bg-btm.gif) no-repeat bottom left;
+    background-size: contain; }
+.main-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-align: left; }
+.main-nav li {
+    display: inline;
+    margin: 0;
+    padding: 0; }
+.main-nav a:link,
+.main-nav a:visited {
+    display: block;
+    padding: 5px 5px 5px 18px;
+    outline: none;
+    line-height: 150%;
+    font-size: 16px;
+    text-decoration: none;
+    color: #137c30;
+    transition: color 0.2s ease-in, background-color 0.2s ease-in; }
+.main-nav a:hover,
+.main-nav a:focus,
+.main-nav a:active {
+    background-color: rgba(255, 255, 255, 0.5); }
+.main-nav a.parent:link, .main-nav a.parent:visited,
+.main-nav a.current:link,
+.main-nav a.current:visited {
+    color: #E31021;
+    font-weight: bold; }
+.main-nav .mainNav2 {
+    padding: 6px 0 10px 0; }
+.main-nav .mainNav2 a:link,
+.main-nav .mainNav2 a:visited {
+    padding: 3px 5px 3px 30px;
+    font-size: 14px; }
+.main-nav .mainNav3 {
+    padding: 0px 0 10px 0; }
+.main-nav .mainNav3 a:link::before,
+.main-nav .mainNav3 a:visited::before {
+    padding-right: 5px;
+    content: '-'; }
+
+div#contentfooter {
+    margin: 50px 0 0 0 !important;
+    font-size: 9px !important;
+    color: #bbb; }
+div#contentfooter a:link,
+div#contentfooter a:visited {
+    text-decoration: none;
+    color: #bbb; }
+
+.body {
+    font-family: 'Source Sans Pro' !important; }
+
+.content p, .content td, .content th, .content a,
+.sidebar p,
+.sidebar td,
+.sidebar th,
+.sidebar a {
+    font-family: 'Source Sans Pro' !important; }
+
+.content h1, .content h2,
+.sidebar h1,
+.sidebar h2 {
+    margin: 0;
+    padding: 0;
+    line-height: 100%;
+    font-family: 'Amaranth', sans-serif !important; }
+
+.content h1 {
+    font-size: 21px;
+    color: #E31021; }
+
+.content h2 {
+    font-size: 16px;
+    color: #999; }
+
+.sidebar h1 {
+    font-size: 15px;
+    color: #137c30; }
+
+.sidebar h2 {
+    font-size: 13px;
+    color: #666; }
