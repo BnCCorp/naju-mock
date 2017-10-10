@@ -90,7 +90,8 @@ header {
     font-size: 16px;
     text-decoration: none;
     color: white;
-    transition: color 0.2s ease-in, background-color 0.2s ease-in;
+    /*transition: color 0.2s ease-in, background-color 0.2s ease-in;*/
+    transition: background-color 0.2s ease-in;
 }
 
 .top-nav a:hover,
@@ -131,7 +132,8 @@ header {
     font-size: 16px;
     text-decoration: none;
     color: #137c30;
-    transition: color 0.2s ease-in, background-color 0.2s ease-in;
+    /*transition: color 0.2s ease-in, background-color 0.2s ease-in;*/
+    transition: background-color 0.2s ease-in;
 }
 
 .main-nav a:hover,
@@ -140,15 +142,18 @@ header {
     background-color: rgba(255, 255, 255, 0.5);
 }
 
-.main-nav a.parent:link, .main-nav a.parent:visited,
+/*.main-nav a.parent:link, .main-nav a.parent:visited,
 .main-nav a.current:link,
 .main-nav a.current:visited {
     color: #E31021;
     font-weight: bold;
-}
+}*/
 
 /* bold and red if selected */
-.main-nav .nav .current > a, .main-nav .nav .active > a {
+.main-nav .nav .current > a:link,
+.main-nav .nav .current > a:visited,
+.main-nav .nav .active > a:link,
+.main-nav .nav .active > a:visited{
     color: #E31021;
     font-weight: bold;
 }
