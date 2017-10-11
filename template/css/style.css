@@ -208,6 +208,17 @@ header {
     content: '-';
 }*/
 
+.nav.menu {
+    margin: 50px 0 0 0 !important;
+    font-size: 9px !important;
+    color: #bbb;
+}
+
+.content .nav.menu a {
+    text-decoration: none;
+    color: #bbb;
+}
+
 div#contentfooter {
     margin: 50px 0 0 0 !important;
     font-size: 9px !important;
