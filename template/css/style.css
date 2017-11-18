@@ -219,19 +219,30 @@ header {
     color: #bbb;
 }
 
-div#contentfooter {
+ul#footer {
     margin: 50px 0 0 0 !important;
     font-size: 9px !important;
     color: #bbb;
+	list-style-type: none;
 }
 
-div#contentfooter a:link,
-div#contentfooter a:visited {
+div#footer a:link,
+div#footer a:visited {
     text-decoration: none;
     color: #bbb;
 }
 
-.body {
+ul#footer li {
+	display: inline;
+}
+
+ul#footer li:not(:last-child) :after {
+    content: " | ";
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+body {
     font-family: 'Source Sans Pro' !important;
 }
 
@@ -248,11 +259,17 @@ div#contentfooter a:visited {
     font-family: 'Source Sans Pro' !important;
 }*/
 
+.content p {
+    padding: 5px;
+    color: #666;
+    font: normal 14px/150% "Source Sans Pro", sans-serif;
+}
+
 .content h1, .content h2,
 .sidebar h1,
 .sidebar h2 {
     margin: 0;
-    padding: 0;
+    padding: 5px;
     line-height: 100%;
     font-family: 'Amaranth', sans-serif !important;
 }
