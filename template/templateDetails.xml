@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <extension version="3.4" type="template">
-    <name>mynewtemplate</name>
-    <creationDate>2008-05-01</creationDate>
-    <author>John Doe</author>
-    <authorEmail>john@example.com</authorEmail>
+    <name>NAJU Template</name>
+    <creationDate>2017_11_20</creationDate>
+    <author>BnCCorp</author>
+    <authorEmail>bnccorp@gmx.de</authorEmail>
     <authorUrl>http://www.example.com</authorUrl>
-    <copyright>John Doe 2008</copyright>
+    <copyright>BnCCorp 2017</copyright>
     <license>GNU/GPL</license>
     <version>1.0.2</version>
-    <description>My New Template</description>
+    <description>Joomla template for NAJU corporate design</description>
     <files>
         <filename>index.php</filename>
         <filename>templateDetails.xml</filename>
