@@ -224,6 +224,7 @@ ul#footer {
     font-size: 9px !important;
     color: #bbb;
 	list-style-type: none;
+	padding: 5px;
 }
 
 div#footer a:link,
@@ -277,6 +278,7 @@ body {
 .content h1 {
     font-size: 21px;
     color: #E31021;
+	font-weight: unset;
 }
 
 .content h2 {
@@ -292,4 +294,12 @@ body {
 .sidebar h2 {
     font-size: 13px;
     color: #666;
+}
+
+h2 {
+    font: normal normal normal 18px/140% "Source Sans Pro", sans-serif;
+}
+
+p {
+    font: normal 14px/150% "Source Sans Pro", sans-serif;
 }
