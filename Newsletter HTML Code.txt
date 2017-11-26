@@ -1,0 +1,8 @@
+<h1>Der Naju-Newsletter</h1>
+<h2>Jetzt hier anmelden!</h2>
+<div class="padding-class">
+<p>Deine E-Mail-Adresse*</p>
+<p><input id="input-email-news" name="email" type="text" value="" /></p>
+<p><button class="newsletter_button" type="submit">Anmelden</button></p>
+</div>
+<p class="padding-class">Mit der Anmeldung zum Newsletter akzeptierst du unsere <a title="http://www.naju.de/j/privacy" href="http://www.naju.de/j/privacy" target="_blank" rel="noopener noreferrer">Datenschutzerklärung</a>.</p>
