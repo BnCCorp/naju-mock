@@ -289,11 +289,16 @@ body {
 .sidebar h1 {
     font-size: 15px;
     color: #137c30;
+	font-weight: unset;
 }
 
 .sidebar h2 {
     font-size: 13px;
     color: #666;
+}
+
+.padding-class {
+	padding: 5px;
 }
 
 h2 {
@@ -302,4 +307,17 @@ h2 {
 
 p {
     font: normal 14px/150% "Source Sans Pro", sans-serif;
+	color: #666666;
+}
+
+#input-email-news {
+	font: normal 14px/150% "Source Sans Pro", sans-serif;
+}
+
+.newsletter_button {
+	padding: 1px 6px;
+}
+
+a:link {
+    color: #333333;
 }
